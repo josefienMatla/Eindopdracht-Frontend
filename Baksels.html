@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Home Heel Holland Bakt</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- dit is om het lettertype inteladen via google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400|Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Navigatie -->
+        <nav>
+            <!-- Logo -->
+            <img class="nav-img" src="Afbeeldingen/hhb-logo.png" alt="HHB logo">
+            <ul>
+                <li><a href="Baksels.html"> <img src="Afbeeldingen/like.svg" alt="hardje met een plusje"><span>Favorieten</span></a></li>
+                <li id="zoek"><a><img src="Afbeeldingen/search.svg" alt="vergrootglas"><span>Zoeken</span></a></li>
+                <li id="profiel"> <a><img src="Afbeeldingen/user.svg" alt="persoon"><span>Profiel</span></a> </li>
+            </ul>
+        </nav>
+
+        <img class="banner" src="Afbeeldingen/achtergrond%20detailpagina.png" alt="taart met home">
+
+        <nav>
+            <ul class="test">
+                <li> <a href="index.html"> <img src="Afbeeldingen/house-black-silhouette-without-door.svg" alt="huisje"><span>Home</span></a> </li>
+                <li> <a href="Baksels.html"> <img src="Afbeeldingen/cake.svg" alt="cakeje"><span>Baksels</span></a>
+                </li>
+                <li> <a href="Baksels.html"> <img src="Afbeeldingen/trophy.svg" alt="prijzenbeker"><span>Beste
+                            baksels</span> </a></li>
+                <li> <a href="Baksels.html"> <img src="Afbeeldingen/cooker.svg" alt="koksmuts en lepels"><span>Workshop</span></a></li>
+                <li> <a href="Baksels.html"> <img src="Afbeeldingen/spatula.svg" alt="spatel"><span>Bak tips</span></a>
+                </li>
+                <li> <a href="Baksels.html"> <img src="Afbeeldingen/tv.svg" alt="tv"><span>TV baksels</span></a></li>
+            </ul>
+        </nav>
+        <!-- einde navigatie -->
+    </header>
+
+    <form>
+        <label for="filterDropdown">Kies smaaksoort
+            <select id="filterDropdown">
+                <!--Ik zou dit in een form zetten -->
+                <option value="zoet">Alle smaken</option>
+                <option value="baksels">Zuur</option>
+                <option value="taart">Bitter</option>
+                <option value="hartig">Hartig</option>
+                <option value="zoet">Zoet</option>
+            </select>
+        </label>
+
+        <label for="filterDropdown">Winnende baksels kiezen
+            <select>
+                <option value="baksels">Beste baksels</option>
+                <option value="taart">Tv baksels</option>
+                <option value="hartig">Top 10 beste baksels</option>
+                <option value="zoet">Meeste stemmen baksels</option>
+            </select>
+        </label>
+
+        <label for="filterDropdown">Kies Seizoen
+            <select>
+                <option value="taart">Seizoen 2020</option>
+                <option value="hartig">Seizoen 2019</option>
+                <option value="seizoen">Seizoen 2018</option>
+                <option value="baksels">Seizoen 2017</option>
+            </select>
+        </label>
+    </form>
+
+    <!--body-->
+    <!-- grid -->
+    <section class="baksels">
+        <article>
+            <a href="Baksels.html">
+                <img src="Afbeeldingen/green%20cake%20.jpeg" alt="een groene taart">
+                <p>De groene taart van Annemarie is een succes. Wat heb je nodig Spinazie, granaatappel..</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/apple%20.jpeg" alt="bakspullen">
+                <p>Ook altijd al een appel roosje willen bakken, het kan nu bekijk het recept...</p>
+            </a>
+            <img class="like" src="Afbeeldingen/like%20rood.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/blueberry%20cake%20.jpeg" alt="Janny and robert">
+                <p> Blueberry cake is een uitdaging. Hou je van een uidaging dan zeg ik bakken maar..</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/brandende%20taart.jpeg" alt="een brood">
+                <p>Heb je nog niet zoveel ervaring met een brander maar is vuur wel helemaal je ding...</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/choco%20.jpeg" alt="bak met handen en deeg ">
+                <p>Heb je geen noten allergie? Dan kan je dit recept eens proberen, vrij snel klaar en makkelijk..</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/donut.jpeg" alt="pannenkoek met aarbeien">
+                <p>Heb jij geen frituur thuis, geen probleem, pak een wokpan met olie en je hebt je frituurpan..</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/miringues.jpeg" alt="kookboek Anna">
+                <p>Heb jij jezelf altijd al afgevraagd hoe meringues gemaakt worden? Kijk dan hier...</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/rainbowe.jpeg" alt="Maroeska uit seizoen 2019">
+                <p> Is je kind bijna jarig en had je nog geen idee wat je ging bakken? Kijk dan naar dit recept... </p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/roode%20taart.jpeg" alt="Heel Holland Bakt tent">
+                <p>Vind je het er ook zo lekker uitzien? Bak het dan nu zelf...</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/sinasapple%20cake%20.jpeg" alt="Cas uit seizoen 2019 ">
+                <p>Het seizoen van de sinaasappel is weer aangebroken kijk hier..</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/wafel.jpeg" alt="screenshot HHB app">
+                <p>Hou jij van een beetje uitdaging, probeer dan nu onze wafelrecept....</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/roze%20taart%20met%20groen.png" alt="Anna uit seizoen 2019">
+                <p>Anna haar mooie bomen taart uit het seizoen van 2019, kijk hier het recept....</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/taart%20blauw%20met%20wit.png" alt="andre van duin">
+                <p> Maroeska heeft ook hard haar best gedaan om die bloemetjes zo te krijgen. Zelf proberen?..</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/verse%20pizaa%20brood%20.jpeg" alt="Irene Moors">
+                <p>Al gehoord van het feit dat bakken niet altijd zoet hoeft te zijn? Kijk dan naar dit recept..</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/Gin%20tonic.jpg" alt="baksel van Nicole">
+                <p>Heerlijke Gin-Tonic cake, zonder alcohol. Dus je kinderen kunnen het ook eten.. </p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/ijshoorntjes.jpeg" alt="baksel van Nicole">
+                <p>Ben jij van alle markten thuis? Maak dan lekker deze ijshoorntjes en je eigen ijs....</p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+        <article>
+            <a href="#">
+                <img src="Afbeeldingen/hartigetaart.jpeg" alt="baksel van Nicole">
+                <p>Weet jij wat een goede hartige taart is? Bekijk hier het recept... </p>
+            </a>
+            <img class="like" src="Afbeeldingen/heart.svg" alt="hartje">
+        </article>
+    </section>
+    <!-- einde grid -->
+
+
+    <!--formuliertje-->
+    <form class="inloggen">
+        <!-- ik zou type is email doen voor error handling (als het een email is) daarnaast overbodige classes aangemaakt CSS: .inloggen input[type='text'] is netter etc. -->
+        <input type="text" id="gebruikersnaam" class="form-control" placeholder="Gebruikersnaam" required="" data-error="Voer uw gebruikersnaam in ">
+        <input type="password" id="wachtwoord" class="form-control" placeholder="wachtwoord" required="" data-error="Voer uw wachtwoord in ">
+        <button type="submit" id="submit" class="add-btn contact-btn">Inloggen</button>
+    </form>
+
+    <form class="zoeken">
+        <input type="search" id="zoeken" class="form-control" placeholder="zoeken">
+        <button type="submit" id="voldoen" class="add-btn contact-btn">zoek</button>
+    </form>
+
+
+
+
+    <!-- footer-->
+    <footer>
+
+        <div class="flex-container">
+
+            <div class="flex-item">
+                <h3> OVERZICHT </h3>
+                <a href="#">
+                    <p> Algemene voorwaarden</p>
+                </a>
+                <a href="#">
+                    <p>Privacyverklaring</p>
+                </a>
+                <a href="#">
+                    <p>Cookies</p>
+                </a>
+                <a href="#">
+                    <p>Sitemap</p>
+                </a>
+                <a href="#">
+                    <p>Spelregels en vragen</p>
+                </a>
+            </div>
+
+            <div class="flex-item">
+                <h3>CONTACT</h3>
+                <a href="#">
+                    <p> Tel: 035-58439053</p>
+                </a>
+                <a href="#">
+                    <p>E-mail: HHB@omroepmax.nl</p>
+                </a>
+                <a href="#">
+                    <p>Pers</p>
+                </a>
+                <a href="#">
+                    <p>MAX nieuwsbrief</p>
+                </a>
+            </div>
+
+            <div class="flex-item">
+                <h3>SPONSOREN</h3>
+                <a href="#">
+                    <p>Omroep MAX </p>
+                </a>
+                <a href="#">
+                    <p>NTR</p>
+                </a>
+                <a href="#">
+                    <p>Vpro</p>
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- einde footer-->
+
+
+
+
+
+    <!--linkje naar javascript-->
+    <script src="hhb.js"></script>
+    <script src="hbblike.js"></script>
+
+</body>
+
+
+
+
+
+
+
+<!-- bronnen
+
+Afbeeldingen:
+
+https://www.google.com/search?safe=off&biw=1680&bih=890&tbm=isch&sxsrf=ACYBGNQTK-Y1s5ze7xL8eBLQBaY3IRrRBg%3A1571660832628&sa=1&ei=IKStXdvyJc7ekgXw-ZeIAQ&q=heel+holland+bakt+servies+&oq=heel+holland+bakt+servies+&gs_l=img.3..0i24.383048.391853..392121...10.0..0.218.1796.34j0j1......0....1..gws-wiz-img.....10..35i362i39j35i39j0i67j0i131i67j0j0i10i24j0i8i30j0i30.eJ3a6yfx8es&ved=0ahUKEwjbgovtrK3lAhVOr6QKHfD8BREQ4dUDCAc&uact=5#imgrc=7d_1D72y4rFG0M:
+
+https://heelhollandbakt.omroepmax.nl/
+
+https://unsplash.com/s/photos/bakery
+
+
+Lettertype:
+https://fonts.google.com/?selection.family=Fira+Sans:800|Poppins
+
+Svg:
+https://www.flaticon.com/
+
+Code:
+Met hulp van Danny & Sam
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_media_hide
+-->
